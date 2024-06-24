@@ -1,1 +1,4 @@
+folder
 .output/
+# Environment Variables
+.env

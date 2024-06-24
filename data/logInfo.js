@@ -1,10 +1,14 @@
+const dotenv = require('dotenv');
+
+dotenv.config();
+
 let invalidCreds={
-    username:"kmaxkondile2@gmail.com",
-    password:"sabote"
+    username:process.env.INVALIDUSERNAME,
+    password:process.env.INVALIDPASSWORD
 }
 let validCreds={
-    username:"kmaxkondile@gmail.com",
-    password:"S@b0t@g3"
+    username:process.env.USERNAME,
+    password:process.env.PASSWORD
 }
 module.exports={
     invalidCreds,
